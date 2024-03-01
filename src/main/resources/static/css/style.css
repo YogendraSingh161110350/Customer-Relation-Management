@@ -1,0 +1,109 @@
+
+.hero {
+	height: 80vh;
+	width: 100%;
+	background-image: url("../images/CRM1.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.header-bg {
+	display: flex;
+	align-items: center;	
+	background-color: #008170;
+	height: 70px;
+}
+
+.hero::before {
+	content: '';
+	display: block;
+	background: rgba(0, 0, 0, 0.5); /* Adjust the last value for opacity */
+}
+
+.footer {
+	height: 20vh;
+	width: 100%;
+	color: black;
+}
+
+.footer ul {
+	padding-top: 20px;
+}
+
+.footer li {
+	padding-top: 4px;
+}
+
+.row {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+body {
+	position: relative;
+}
+
+#loginsec {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border-radius: 5px;
+}
+
+.login-form {
+	
+	height: 50vh;
+	box-shadow: 2px 2px 2px 2px gray;
+}
+.register-error
+{
+	color: red;
+	font-size: 13px; 
+	font-weight: 600;
+}
+ /* ------------------icon in text field-------------  */
+ 
+body {font-family: Arial, Helvetica, sans-serif;background-color: #E4E6EB}
+* {box-sizing: border-box;}
+
+.input-container {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.icon {
+  padding: 10px;
+  background: dodgerblue;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+}
+
+.input-field:focus {
+  border: 2px solid dodgerblue;
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color: dodgerblue;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
+}
