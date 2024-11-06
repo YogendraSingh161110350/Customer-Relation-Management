@@ -35,10 +35,7 @@ public class CourseController
 							) 
 	{
 		Course c = new Course();
-		System.out.println("---THis is my First Commit---");
-		System.out.println("---THis is my Second Commit---");
-		System.out.println("---THis is my THird Commit---");
-		System.out.println("---THis is my Fourth Commit---");
+		System.out.println("---THis is my First Commit");
 		model.addAttribute("course",c );
 		model.addAttribute("successMsg", successMsg);
 		model.addAttribute("errorMsg", errorMsg);
