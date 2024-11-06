@@ -39,13 +39,16 @@ public class CourseController
 							) 
 	{
 		Course c = new Course();
-		System.out.print("This is demo");
+		System.out.println("Hey Yogi Bhai");
 		model.addAttribute("course",c );
 		model.addAttribute("successMsg", successMsg);
 		model.addAttribute("errorMsg", errorMsg);
 		return "add-course";
 	}
-	
+	public void m1(){
+		System.out.println("hi i m M1");
+	}
+
 	@PostMapping("/doAddCourse")
 	public String doAddCourse(
 			@Valid @ModelAttribute(name = "course")Course course,
