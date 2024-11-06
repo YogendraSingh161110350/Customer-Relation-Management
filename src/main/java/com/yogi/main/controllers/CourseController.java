@@ -35,34 +35,7 @@ public class CourseController
 							) 
 	{
 		Course c = new Course();
-		System.out.println("---THis is my First Commit");
-		System.out.println("--How i can DO work----");
-		System.out.println();
-		System.out.println();
-		System.out.println("---THis is my First Commit");
-		System.out.println("--How i can DO work----");
-		System.out.println();
-		System.out.println();
-		System.out.println("---THis is my First Commit");
-		System.out.println("--How i can DO work----");
-		System.out.println();
-		System.out.println();
-		System.out.println("---THis is my First Commit");
-		System.out.println("--How i can DO work----");
-		System.out.println();
-		System.out.println();
-		System.out.println("---THis is my First Commit");
-		System.out.println("--How i can DO work----");
-		System.out.println();
-		System.out.println();
-		System.out.println("---THis is my First Commit");
-		System.out.println("--How i can DO work----");
-		System.out.println();
-		System.out.println();
-		System.out.println("---THis is my First Commit");
-		System.out.println("--How i can DO work----");
-		System.out.println();
-		System.out.println();
+
 		model.addAttribute("course",c );
 		model.addAttribute("successMsg", successMsg);
 		model.addAttribute("errorMsg", errorMsg);
