@@ -25,6 +25,10 @@ import jakarta.validation.Valid;
 @Controller
 public class CourseController
 {
+	public void m2(){
+		System.out.println("hi i m M1");
+	}
+	
 	@Autowired
 	private CourseService courseService;
 	@GetMapping("/addCourse")
