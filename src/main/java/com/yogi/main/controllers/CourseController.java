@@ -36,6 +36,9 @@ public class CourseController
 	{
 		Course c = new Course();
 
+
+
+		
 		model.addAttribute("course",c );
 		model.addAttribute("successMsg", successMsg);
 		model.addAttribute("errorMsg", errorMsg);
