@@ -39,10 +39,7 @@ public class CourseController
 							) 
 	{
 		Course c = new Course();
-
-
-
-		
+		System.out.print("This is demo");
 		model.addAttribute("course",c );
 		model.addAttribute("successMsg", successMsg);
 		model.addAttribute("errorMsg", errorMsg);
